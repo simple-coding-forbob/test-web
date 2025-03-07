@@ -1,0 +1,8 @@
+/* TODO : 02_slide_img.css */
+img {
+    width: 100%;
+}
+/* TODO : swiper 크기 조절 */
+.swiper {
+    width: 40%;
+}

@@ -1,0 +1,11 @@
+.quiz-example {
+    width:100%;
+}
+.quiz-example > img {
+    max-width: 100%;
+    height: auto;
+}
+/* TODO : swiper 크기 조절 */
+.swiper {
+    width: 30%;
+}

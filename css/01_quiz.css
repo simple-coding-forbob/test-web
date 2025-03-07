@@ -1,0 +1,17 @@
+/* TODO : 나의 css , santa, gift 디자인 */
+.santa {
+    width: 99vw;
+    height:60vh;
+    background-image: url("../../img/05_01_quiz_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gift {
+    width: 99vw;
+    height:60vh;
+    background-image: url("../../img/05_01_quiz_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,17 @@
+/* TODO : 01_slide_back_img.css */
+.cat {
+    width: 99vw;
+    height:60vh;
+    background-image: url("../../img/15_click_attr_cat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dog {
+    width: 99vw;
+    height:60vh;
+    background-image: url("../../img/15_click_attr_dog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

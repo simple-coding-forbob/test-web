@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page {
+    width: 90vw;
+    margin: 0 auto;
+}
+.clear {clear: both;}
+a {text-decoration: none;color: black;}
+li {display: block; list-style-type: none;}
+
+.quiz-list li {float: left; margin-right: 10px;}
+.quiz {float: left; width:40%;padding: 5px;}
+.quiz img {max-width: 100%; height: auto;}
+.quiz > p {margin-left: 5px;font-size: 0.8rem; color: gray;}
