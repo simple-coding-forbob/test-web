@@ -1,0 +1,37 @@
+<!-- TODO : 05_lightbox.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<!-- SimpleLightbox css(공홈) : https://dbrekalo.github.io/simpleLightbox/#section-Api-and-options -->
+ <!-- TODO : lightbox css 파일 끼워넣기 -->
+    <link rel="stylesheet" href="./css/lightbox/simpleLightbox.css">
+    <style>
+      .wraper {
+        width: 40%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wraper">
+      <!-- TODO : 1번째 풀이미지(a 태그)/썸네일이미지(img 태그) -->
+      <a href="../img/fullsize/1.jpg">
+        <img src="../img/thumbnails/1.jpg" alt="썸네일">
+      </a>
+      <!-- TODO : 2번째 풀이미지/썸네일이미지 -->
+       <a href="../img/fullsize/2.jpg">
+        <img src="../img/thumbnails/2.jpg" alt="썸네일2">
+       </a>
+    </div>
+
+    <!-- TODO : jquery cdn(인터넷 주소) -->
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>  
+    <!-- TODO : lightbox js 파일 끼워넣기 -->
+    <script src="./js/lightbox/simpleLightbox.js"></script>
+    <!-- TODO : 나의 js 끼워넣기 -->
+     <script src="./js/05_lightbox.js"></script>
+  </body>
+</html>
